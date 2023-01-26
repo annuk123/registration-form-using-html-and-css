@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f9ff;
+}
+
+main {
+    width: 350px;
+    height: 550px;
+    margin: auto;
+    margin-top: 15%;
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 20px #e8f1fd;
+}
+
+h1 {
+    width: 60%;
+    margin: auto;
+    line-height: 35px;
+}
+
+#des {
+    width: 90%;
+    margin: 20px auto;
+    font-weight: 600;
+}
+
+#fb {
+    padding: 15px 28%;
+    border: none;
+    border-radius: 5px;
+    background-color: #4968ad;
+    color: #ffffff;
+    font-weight: bold;
+}
+#fb:hover {
+    box-shadow: 0 0 20px 20px rgba(48, 86, 161, 0.651) inset;
+}
+
+#nn {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+input {
+    width: 83%;
+    margin: 8px auto;
+    padding: 10px;
+}
+
+.name {
+    width: 36%;
+}
+
+input.name:first-child {
+    margin-right: 10px;
+}
+
+#acc {
+    background-color: #1e2c4b;
+    color: #ffffff;
+    border: none;
+    padding: 15px 28%;
+    margin: 10px auto;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#acc:hover {
+    box-shadow: 0 0 10px 20px rgba(60, 60, 61, 0.616) inset;
+}
+#footer {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+	font-size: 12px;
+}
